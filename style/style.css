@@ -1,0 +1,73 @@
+.top{
+  padding-top: 20px;
+  padding-bottom: 50px;
+  width:1000px;
+}
+.top input{
+  width:600px;
+}
+.home{
+  padding: 20px 20px 20px 20px;
+}
+.logout{
+  padding: 20px 20px 20px 20px;
+}
+.myproducts{
+  padding: 20px 20px 20px 20px;
+}
+.profile table{
+  text-align: center;
+  border: 1px solid;
+  width:1000px;
+  height:300px;
+}
+.profile #prfilephoto{
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+}
+.profile #prfileinfo{
+  width: 800px;
+  height: 300px;
+}
+.profile #prfilemange{
+  width: 200px;
+  height: 100px;
+}
+#productsupload{
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+}
+#nav-wrapper{
+  padding: 20px 20px 20px 20px;
+  width:1000px;
+  height:40px;
+}
+#nav{
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  height:100%;
+}
+#nav>li{
+  float:left;
+  width:160px;
+  height:100%;
+  text-align:center;
+}
+#nav li a{
+  text-decoration: none;
+  padding-top:3px;
+  display:block;
+  height:100%;
+  line-height:30px;
+}
+#nav li a:hover{
+  color:red;
+}
+#nav li>ul{
+  list-style-type: none;
+  padding:0;
+  display:none;
+}

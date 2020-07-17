@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <title>상품등록</title>
+  </head>
+  <body>
+    <div class="top">
+      <table>
+        <tr>
+          <th>
+            <div class="home">
+            <a href="index.html">홈</a>
+            </div>
+          </th>
+          <th>
+            <div class="search">
+              <input type="search" placeholder="상품명, 지역명, @상점명 입력">
+            </div>
+          </th>
+          <th>
+            <div class="logout">
+              <a href="#">로그아웃</a>
+            </div>
+
+          </th>
+          <th>
+            <div class="myproducts">
+              <a href="myproducts.html">내 상점</a>
+            </div>
+
+          </th>
+        </tr>
+      </table>
+    </div>
+
+    <div id="nav-wrapper">
+        <ul id="nav">
+            <li><a href="new.html">상품등록</a></li>
+            <li><a href="manage.html">상품관리</a></li>
+        </ul>
+    </div>
+
+    <div class="productsinfo">
+
+      <p>기본정보 *필수항목</p>
+      <hr>
+      <p>상품이미지*</p>
+      <table>
+        <tr>
+          <td id="productsupload">
+            이미지등록
+          </td>
+          <td>
+            <p>이미지는 상품 등록시 정사각형으로 짤려서 등록됩니다.</p>
+          </td>
+        </tr>
+      </table>
+      <hr>
+      제목* <input type="text" placeholder="상품 제목을 입력해주세요">
+      <hr>
+      카테고리*
+      <form>
+        <select size="3" multiple>
+            <option value="ko">패션잡화</option>
+            <option value="cn">여성의류</option>
+            <option value="en">남성의류</option>
+            <option value="ca">디지털/가전</option>
+            <option value="vn">도서/티켓/취미/애완</option>
+            <option value="uk">생활/문구/가구/식품</option>
+            <option value="de">유아동/출산</option>
+        </select>
+      </form>
+      <hr>
+      거래지역* <input type="text" name="" value="">
+      <hr>
+      상태*
+      <input type="radio" name="state" value="used">중고
+      <input type="radio" name="state" value="new">새상품
+      <hr>
+      교환*
+      <input type="radio" name="swap" value="p">교환불가
+      <input type="radio" name="swap" value="n">교환가능
+      <hr>
+      가격*
+      <input type="text" name="" value="">원
+      <input type="checkbox" name="price" value="freeshipping">무료배송
+      <input type="checkbox" name="price" value="consult">가격협의 가능
+      <hr>
+      설명
+      <textarea cols="30" rows="10" placeholder="상품 설명을 입력해주세요."></textarea>
+      <hr>
+      연관태그
+      <input type="text" placeholder="연관태그를 입력해주세요.">
+      <hr>
+      수량<input type="text" value="1">개
+
+      <br>
+      꼭 읽어주세요 <a href="#">이용 가이드</a>
+      <br>
+      상품등록시 번개페이가 자동 적용됩니다.
+
+      <button type="submit" name="button">등록하기</button>
+
+    </div>
+  </body>
+</html>
